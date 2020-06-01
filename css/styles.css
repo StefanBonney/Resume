@@ -8,33 +8,51 @@ body {
 }
 
 body {
-    line-height: 1.5;
     padding: 4em 1em;
+}
+
+#titleDescription {
+    line-height: 0.1;
 }
 
 h2 {
     margin-top: 1em;
     padding-top: 1em;
+    line-height: 1.5;
+}
+
+h1 {
+    line-height: 0.1;
 }
 
 body {
-    color: #555;
+    color: black;
 }
 
 h2 {
     color: #333;
 }
 
-div { background-color: thistle;}
+div { background-color: lightgrey;}
 
-#blue {color: blue;}
+.job {
+    width: 600px;
+    height: 2400px;
+    padding: 10px;
+}
 
-.red {color: red;}
+.study {
+    width: 600px;
+    height: 800px;
+    padding: 10px;
+}
 
-.darkRed {color: darkred;}
-
-.pink {color: deeppink;}
 
 p {
-    color: red;
+    line-height: 1.5;
+}
+
+.lightText {
+    line-height: 0.2;
+    color: darkblue;
 }
